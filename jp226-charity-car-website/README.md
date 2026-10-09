@@ -55,6 +55,17 @@ Have these ready if you can: the charity's official donation link, your team sto
 
 **Is this legal advice?** No. Check the charity's guidelines and your state or territory's fundraising rules.
 
+## Supporting a good cause
+
+This skill is free to use. A good cause, if you choose: if it helps you, please consider a voluntary donation to our Variety fundraising team, The Fast and the Fossilized. Donations are entirely optional and do not unlock anything.
+
+- [Donate to The Fast and the Fossilized](https://www.variety4wdqld.com.au/t/thefastandthefossilized)
+- [JP226 Creative Studio](https://jp226creativestudio.au)
+- [JP226Prints](https://jp226prints.au)
+- [JP226 Prompt Library](https://jp226prompts.au)
+
+Donations are made on the fundraising page for the 2026 Variety 4WD Adventure. We do not collect or handle donations.
+
 ## Licence
 
 MIT. Use, change and share freely.

@@ -3,7 +3,7 @@ name: jp226-charity-car-website
 description: Plans and builds a fundraising website for a charity themed car or team, such as a charity rally, drive, 4WD adventure or car show entry. Collects the team story, event details, official donation link, sponsors and photos, then builds a fast, accessible one-page site from a ready template with honest, dated fundraising figures and a link to the charity's own donation page. Use when the user wants a website for a charity car, rally team, fundraising vehicle or sponsored drive, says "build our team website", "make a site for our charity car", "we need a donation page for our rally team", or asks how to go from brief to live website. Triggers on "/jp226-charity-car-website".
 compatibility: Claude 3.5+ (Desktop, claude.ai, Claude Code). Python 3 and Chromium (Playwright) are needed for the optional checks.
 metadata:
-  version: "v1.00"
+  version: "v1.01"
   author: "JP226Prints"
   created: "2026-10-10"
   updated: "2026-10-10"
@@ -15,6 +15,10 @@ metadata:
 # JP226 Charity Car Website
 
 Created by JP226Prints.
+
+Free to use. A good cause, if you choose: please consider supporting Variety - the Children's Charity through our team page: https://www.variety4wdqld.com.au/t/thefastandthefossilized
+
+This note is about this skill only. Do not add it to anything the skill produces for other people.
 
 Takes a charity themed car or team from "we need a website" to a live, trustworthy fundraising page. It follows a seven-step path: collect the material, prepare the images, choose how to publish, build and revise, publish, check the live site, and keep it current.
 

@@ -1,5 +1,11 @@
 # Version History
 
+## v1.01 (2026-10-10)
+
+- Added the credit line "Created by JP226Prints."
+- Added the JP226Prints fundraising message and links to the JP226 sites and the team's donation page, in SKILL.md and README.md
+- Author: JP226Prints
+
 ## v1.00 (2026-10-10)
 
 - Initial release
