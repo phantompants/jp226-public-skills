@@ -1,5 +1,7 @@
 # JP226 Website Builder
 
+Created by JP226Prints.
+
 Helps you work out what you want from a website, writes it up as a short brief, then builds the site.
 
 ## What it does
@@ -50,6 +52,17 @@ When a feature needs a service, the skill says so and suggests one.
 **The form does not send email.** Static pages cannot send email on their own. Use contact links, or connect a form service.
 
 **Screenshots fail.** Playwright or Chromium is missing. The site is still built; only the visual check is skipped.
+
+## Supporting a good cause
+
+This skill is free to use. A good cause, if you choose: if it helps you, please consider a voluntary donation to our Variety fundraising team, The Fast and the Fossilized. Donations are entirely optional and do not unlock anything.
+
+- [Donate to The Fast and the Fossilized](https://www.variety4wdqld.com.au/t/thefastandthefossilized)
+- [JP226 Creative Studio](https://jp226creativestudio.au)
+- [JP226Prints](https://jp226prints.au)
+- [JP226 Prompt Library](https://jp226prompts.au)
+
+Donations are made on the fundraising page for the 2026 Variety 4WD Adventure. We do not collect or handle donations.
 
 ## Licence
 

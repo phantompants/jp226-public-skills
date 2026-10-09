@@ -28,7 +28,7 @@ Follow along on [TikTok](https://www.tiktok.com/@jp226prints), [Instagram](https
 
 <!-- jp226-skills:start -->
 - **jp226-charity-car-website** v1.00: Plans and builds a fundraising website for a charity themed car or team, such as a charity rally, drive, 4WD adventure or car show entry.
-- **jp226-website-builder** v1.00: Helps the user work out what they want from a website, writes it up as a short brief, then builds the site.
+- **jp226-website-builder** v1.01: Helps the user work out what they want from a website, writes it up as a short brief, then builds the site.
 <!-- jp226-skills:end -->
 
 ## How to use a skill

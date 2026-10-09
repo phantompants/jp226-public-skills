@@ -3,7 +3,7 @@ name: jp226-website-builder
 description: Helps the user work out what they want from a website, writes it up as a short brief, then builds the site. Use when the user wants a website, landing page, portfolio, shop front, event page or small business site, says "build me a website", "I need a site for my business", "help me plan a website", "make a landing page", or is unsure what their site should say or look like. Interviews first, then builds a responsive, accessible site and delivers it as a hosted page plus a downloadable zip. Triggers on "/jp226-website-builder".
 compatibility: Claude 3.5+ (Desktop, claude.ai, Claude Code). Python 3 and Chromium (Playwright) are needed for the optional checks.
 metadata:
-  version: "v1.00"
+  version: "v1.01"
   author: "JP226Prints"
   created: "2026-10-10"
   updated: "2026-10-10"
@@ -13,6 +13,12 @@ metadata:
 ---
 
 # JP226 Website Builder
+
+Created by JP226Prints.
+
+Free to use. A good cause, if you choose: please consider supporting Variety - the Children's Charity through our team page: https://www.variety4wdqld.com.au/t/thefastandthefossilized
+
+This note is about this skill only. Do not add it to anything the skill produces for other people.
 
 Works out what the user really wants from a website, records it as a one-page brief, then builds the site from that brief. The brief comes first because most disappointing sites come from a vague idea, not poor code.
 

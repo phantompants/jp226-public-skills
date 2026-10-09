@@ -156,6 +156,7 @@ def check_links(root, pages, out):
     """Check relative links point at files that exist."""
     for path in pages:
         text = path.read_text(encoding="utf-8", errors="replace")
+        text = re.sub(r"<!--.*?-->", "", text, flags=re.S)  # ignore comments
         for m in re.finditer(r'(?:href|src)\s*=\s*"([^"]+)"', text):
             ref = m.group(1).strip()
             if (ref.startswith(("#", "http://", "https://", "//"))
