@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[NEEDED: Team name] | Fundraising for [NEEDED: Charity name]</title>
+<meta name="description" content="[NEEDED: One sentence. Who the team is, the charity, and the event.]">
+<meta property="og:title" content="[NEEDED: Team name] | Fundraising for [NEEDED: Charity name]">
+<meta property="og:description" content="[NEEDED: One sentence for link previews.]">
+<style>
+/* ---- Livery colours: change these first ---- */
+:root{
+  --bg:#ffffff;
+  --surface:#f4f1ec;
+  --ink:#1b1b1b;
+  --muted:#4a4a4a;
+  --accent:#b84a00;        /* buttons and highlights */
+  --accent-ink:#ffffff;    /* text on accent: keep 4.5:1 or better */
+  --link:#8a3a00;
+  --line:#d9d4cc;
+  --radius:10px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#141210;
+    --surface:#1f1c19;
+    --ink:#f2efe9;
+    --muted:#c9c4bb;
+    --accent:#ffb066;
+    --accent-ink:#1a1208;
+    --link:#ffc58f;
+    --line:#3a3530;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:var(--accent-ink);padding:.6rem 1rem;z-index:10}
+.skip:focus{left:0}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1rem}
+header.site{border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;align-items:center;justify-content:space-between;padding-top:.75rem;padding-bottom:.75rem}
+.brand{font-weight:700;text-decoration:none;color:var(--ink)}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1rem}
+nav a{color:var(--ink);text-decoration:none;padding:.35rem 0;display:inline-block}
+nav a:hover{text-decoration:underline}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:.85rem 1.4rem;border-radius:var(--radius);font-weight:700;text-decoration:none}
+.btn:hover{filter:brightness(1.06)}
+section{padding:2.75rem 0}
+section.alt{background:var(--surface)}
+h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;margin:0 0 .5rem}
+h2{font-size:clamp(1.5rem,4vw,2rem);margin:0 0 1rem;line-height:1.2}
+h3{margin:0 0 .35rem}
+.lead{font-size:1.2rem;color:var(--muted);max-width:42rem}
+.hero .wrap{display:grid;gap:1.5rem}
+@media(min-width:48rem){.hero .wrap{grid-template-columns:1.1fr 1fr;align-items:center}}
+.slot{background:var(--surface);border:2px dashed var(--line);border-radius:var(--radius);min-height:14rem;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;color:var(--muted)}
+.hero .slot{min-height:18rem}
+.note{font-size:.95rem;color:var(--muted)}
+progress{width:100%;height:1.25rem;accent-color:var(--accent)}
+.stat{font-size:2rem;font-weight:700;margin:.25rem 0}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:1rem}
+section.alt .card{background:var(--bg)}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:.35rem 1rem;margin:0}
+dt{font-weight:700}
+dd{margin:0}
+ul.sponsors{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr))}
+ul.sponsors .slot{min-height:5rem}
+footer{border-top:1px solid var(--line);padding:2rem 0;font-size:.95rem;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the main content</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">[NEEDED: Team name]</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#story">Our story</a></li>
+        <li><a href="#car">The car</a></li>
+        <li><a href="#event">The event</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#help">How to help</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO: donate button must stay in the first screen -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <h1>[NEEDED: Team name]</h1>
+      <p class="lead">[NEEDED: One or two sentences. What the team is doing and who it is helping.]</p>
+      <p>
+        <!-- Replace the address below with the charity's OFFICIAL donation page, supplied by the team. -->
+        <a class="btn" href="https://[NEEDED-official-donation-url]" rel="noopener">Donate to [NEEDED: Charity name]</a>
+      </p>
+      <p class="note">You will go to [NEEDED: Charity name]'s official donation page. Donations are made directly to the charity.</p>
+    </div>
+    <!-- Replace with: <img src="images/hero.jpg" alt="[describe the photo]" width="1600" height="1000"> -->
+    <div class="slot" role="img" aria-label="[NEEDED: describe the hero photo]">[NEEDED: Hero photo of the car and team]</div>
+  </div>
+</section>
+
+<!-- FUNDRAISING PROGRESS: delete this whole section if there is no figure to show -->
+<section class="alt" id="progress">
+  <div class="wrap">
+    <h2>Fundraising so far</h2>
+    <p class="stat">$[NEEDED: amount raised]</p>
+    <progress max="100" value="0" aria-label="Fundraising progress towards the target">0%</progress>
+    <!-- Set value to the real percentage of the target. -->
+    <p class="note">Target: $[NEEDED: target]. Raised so far, as at [NEEDED: date].</p>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap">
+    <h2>Our story</h2>
+    <p>[NEEDED: Why the team is doing this, in the team's own words. Two or three short paragraphs.]</p>
+    <p>[NEEDED: Who is in the team, and why this charity matters to them.]</p>
+  </div>
+</section>
+
+<section class="alt" id="car">
+  <div class="wrap">
+    <h2>The car</h2>
+    <div class="grid">
+      <div class="slot" role="img" aria-label="[NEEDED: describe the car photo]">[NEEDED: Photo of the car]</div>
+      <div>
+        <dl>
+          <dt>Make and model</dt><dd>[NEEDED: make, model, year]</dd>
+          <dt>Theme</dt><dd>[NEEDED: livery or theme]</dd>
+          <dt>Special details</dt><dd>[NEEDED: anything special about the car]</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="event">
+  <div class="wrap">
+    <h2>The event</h2>
+    <dl>
+      <dt>Event</dt><dd>[NEEDED: event name]</dd>
+      <dt>Dates</dt><dd>[NEEDED: dates]</dd>
+      <dt>Route or place</dt><dd>[NEEDED: route or location]</dd>
+      <dt>Follow along</dt><dd>[NEEDED: where people can follow the team]</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- SPONSORS: list only sponsors who agreed. Delete the section if there are none yet. -->
+<section class="alt" id="sponsors">
+  <div class="wrap">
+    <h2>Our sponsors</h2>
+    <p>Thank you to our sponsors, who have agreed to be listed.</p>
+    <ul class="sponsors">
+      <!-- Replace each slot with: <li><a href="[sponsor link]" rel="noopener"><img src="images/sponsor-name.svg" alt="[Sponsor name]" width="240" height="90"></a></li> -->
+      <li class="slot">[NEEDED: Sponsor name or logo]</li>
+      <li class="slot">[NEEDED: Sponsor name or logo]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- GALLERY: replace the slots with real photos, each with alt text -->
+<section id="gallery">
+  <div class="wrap">
+    <h2>Photos</h2>
+    <div class="grid">
+      <div class="slot" role="img" aria-label="[NEEDED: describe photo 1]">[NEEDED: Photo 1]</div>
+      <div class="slot" role="img" aria-label="[NEEDED: describe photo 2]">[NEEDED: Photo 2]</div>
+      <div class="slot" role="img" aria-label="[NEEDED: describe photo 3]">[NEEDED: Photo 3]</div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="updates">
+  <div class="wrap">
+    <h2>Updates</h2>
+    <article class="card">
+      <h3>[NEEDED: Update title]</h3>
+      <p class="note">[NEEDED: date]</p>
+      <p>[NEEDED: A short update on the car, the sponsors or the fundraising.]</p>
+    </article>
+  </div>
+</section>
+
+<section id="help">
+  <div class="wrap">
+    <h2>How you can help</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Donate</h3>
+        <p>Give directly to [NEEDED: Charity name] on its official donation page.</p>
+        <p><a class="btn" href="https://[NEEDED-official-donation-url]" rel="noopener">Donate to [NEEDED: Charity name]</a></p>
+      </div>
+      <div class="card">
+        <h3>Share</h3>
+        <p>Tell a friend, or share this page on your social media.</p>
+      </div>
+      <div class="card">
+        <h3>Sponsor the team</h3>
+        <p>Interested in supporting the team? Get in touch using the details below.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="contact">
+  <div class="wrap">
+    <h2>Contact and follow us</h2>
+    <p>[NEEDED: A public contact link or address the team is happy to publish.]</p>
+    <p>[NEEDED: Social media links, for example Follow us on Instagram.]</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>This page is run by [NEEDED: Team name], a team supporting [NEEDED: Charity name]. Donations are made directly to [NEEDED: Charity name] on its official donation page. We do not collect or handle donations.</p>
+    <p>[NEEDED: Confirm this notice with the charity, and add the charity's required wording if it has any.]</p>
+  </div>
+</footer>
+
+</body>
+</html>
