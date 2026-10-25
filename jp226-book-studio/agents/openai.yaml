@@ -1,0 +1,4 @@
+interface:
+  display_name: "JP226 Book Studio"
+  short_description: "Plan, draft and review books with your own AI"
+  default_prompt: "Use $jp226-book-studio to guide my book from brief to publishing preparation."
