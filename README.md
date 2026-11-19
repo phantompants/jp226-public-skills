@@ -1,6 +1,6 @@
 # JP226 Public Skills
 
-Reusable, general-purpose AI skills. The first technical-report set is version **2026.11.00** (19 November 2026).
+Reusable, general-purpose AI skills. The Work Prompt Studio collection is version **2026.11.01** (19 November 2026), with 58 general engineering consultancy skills.
 
 ## Work Prompt Studio — engineering filter
 
@@ -8,7 +8,9 @@ Site: [Work Prompt Studio](https://work-prompt-studio.jp226prints-au.chatgpt.sit
 
 Skill source: `workprompts-jp226-com/engineering-filter/skills/`
 
-### Technical reports
+[Browse all 58 Work Prompt Studio skills by role and task](workprompts-jp226-com/engineering-filter/README.md).
+
+### Technical-report starting points
 
 | Skill | Purpose |
 | --- | --- |
@@ -16,7 +18,7 @@ Skill source: `workprompts-jp226-com/engineering-filter/skills/`
 | [Review technical report](workprompts-jp226-com/engineering-filter/skills/jp226-review-technical-report/SKILL.md) | Identify gaps, inconsistencies and unsupported conclusions. |
 | [Rewrite technical text](workprompts-jp226-com/engineering-filter/skills/jp226-rewrite-technical-text/SKILL.md) | Improve readability while preserving technical meaning. |
 
-These general-purpose skills contain no client material or OT cybersecurity workflows. Supply project-specific information only within your approved AI environment.
+These general-purpose skills contain no client material or cybersecurity workflows. Supply project-specific information only within your approved AI environment.
 
 ## Use the skills
 
@@ -33,6 +35,8 @@ Keep each skill separate. Select it explicitly for initial trials, supply repres
 Try each skill with complete source material, missing inputs, conflicting evidence and unsupported requests. Check that drafting does not invent findings, reviewing does not claim inaccessible appendices were checked, and rewriting retains qualifiers such as “may” and “not verified”. Report remaining issues to the author before relying on the result.
 
 ## Versions
+
+- **2026.11.01:** expand Work Prompt Studio to 58 general engineering workflows. Cybersecurity skills remain excluded.
 
 - **2026.11.00:** initial technical-report drafting, review and rewrite set. Use the repository commit history for changes and stable version references.
 
