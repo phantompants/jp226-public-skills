@@ -2,13 +2,19 @@
 
 Reusable, general-purpose AI skills. The first technical-report set is version **2026.11.00** (19 November 2026).
 
-## Technical reports
+## Work Prompt Studio — engineering filter
+
+Site: [Work Prompt Studio](https://work-prompt-studio.jp226prints-au.chatgpt.site)
+
+Skill source: `workprompts-jp226-com/engineering-filter/skills/`
+
+### Technical reports
 
 | Skill | Purpose |
 | --- | --- |
-| [Draft technical report](technical-reports/jp226-draft-technical-report/SKILL.md) | Produce a structured, evidence-led draft from approved source material. |
-| [Review technical report](technical-reports/jp226-review-technical-report/SKILL.md) | Identify gaps, inconsistencies and unsupported conclusions. |
-| [Rewrite technical text](technical-reports/jp226-rewrite-technical-text/SKILL.md) | Improve readability while preserving technical meaning. |
+| [Draft technical report](workprompts-jp226-com/engineering-filter/skills/jp226-draft-technical-report/SKILL.md) | Produce a structured, evidence-led draft from approved source material. |
+| [Review technical report](workprompts-jp226-com/engineering-filter/skills/jp226-review-technical-report/SKILL.md) | Identify gaps, inconsistencies and unsupported conclusions. |
+| [Rewrite technical text](workprompts-jp226-com/engineering-filter/skills/jp226-rewrite-technical-text/SKILL.md) | Improve readability while preserving technical meaning. |
 
 These general-purpose skills contain no client material or OT cybersecurity workflows. Supply project-specific information only within your approved AI environment.
 
